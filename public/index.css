@@ -1,0 +1,91 @@
+
+
+
+.parent-Div{
+  padding: 40px;
+  width:440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+.card{
+  display: flex;
+  margin-bottom: 15px;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.info{
+  text-align: left;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  width: 170px;
+  margin: auto 0 auto 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+img{
+  width: 65%;
+  border-radius: 50%;
+}
+
+.profilePic{
+  text-align: center;
+  padding: 10px;
+  padding-top: 18px;
+}
+
+.name{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.date{
+  color: rgb(163, 162, 162);
+}
+
+.aa{
+  padding:  25px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.editbtn,.deletebtn{
+  width: 68px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.editbtn{
+  margin-bottom: 15px;
+}
+.editbtn:hover{
+  cursor: pointer;
+  background-color: rgb(13, 218, 13);
+  color: white;
+}
+
+.deletebtn:hover{
+  cursor: pointer;
+  background-color: red;
+  color:white
+}
+
+input{
+  margin: 5px 20px 10px 0;
+  padding: 10px;
+  font-size: 40pxrem;
+}
+
+.submitbtn{
+  border: none;
+  background-color: aqua;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.submitbtn :hover{
+  cursor: pointer;
+}
